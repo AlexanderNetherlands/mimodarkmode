@@ -1,0 +1,44 @@
+body{
+    background-color: grey;
+}
+h1{
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Comic Sans';
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 10px;
+    border: solid 2px grey;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 28px;
+}
+button :active{
+    border: solid 3px red;
+}
+#bat{
+    background-color: black;
+    color: white;
+}
+#super{
+    background-color: beige;
+    color: black;
+}
+#nin{
+    background-color: red;
+    color: black;
+}
+footer{
+    margin: 0px auto;
+    width: 400px;
+    text-align: center;
+}
